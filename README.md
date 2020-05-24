@@ -33,7 +33,7 @@ Log data json path: ```s3://udacity-dend/log_json_path.json```
 
 ## Song Dataset
 
-The first dataset is a subset of real data from the Million Song Dataset[Million Song Dataset](http://millionsongdataset.com/). Each file is in ***JSON format*** and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
+The first dataset is a subset of real data from the Million Song Dataset [Million Song Dataset](http://millionsongdataset.com/). Each file is in ***JSON format*** and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
 
 ```
 song_data/A/B/C/TRABCEI128F424C983.json
@@ -122,22 +122,29 @@ When you finish to work, don't forget to deleting your cluster. You can find som
 ## Sources:
 
 Data Engineering Nanodegree: part 3 Cloud Data Warehouses 
+
 https://www.udacity.com/course/data-engineer-nanodegree--nd027
 
 Regarding Sortkey and Distkey
+
 https://docs.aws.amazon.com/redshift/latest/dg/c_best-practices-sort-key.html
 
 Distribution styles
+
 https://docs.aws.amazon.com/redshift/latest/dg/c_choosing_dist_sort.html
 
 AWS distribution exemple 
+
 https://docs.aws.amazon.com/redshift/latest/dg/c_Distribution_examples.html
 
 Create table on AWS
+
 https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_TABLE_NEW.html
 
 Date from BigInt
+
 https://stackoverflow.com/questions/25371543/convert-bigint-to-date-in-postgresql?rq=1
 
 Markdown quick reference
+
 https://wordpress.com/support/markdown-quick-reference/
